@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 1 HTML: Actividad 3</title>
+</head>
+<body>
+    <section name="formulario">
+        
+        <h3>Registrate!</h3>
+        <form action="registro.html" method="post">
+            <fieldset>
+            <legend>Datos personales</legend>
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre"placeholder="Ej: Ana Alvarez" required title="Solo letras, mínimo 3 caracteres"><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" placeholder="Ej: aaaz@mail.com" required><br><br>
+
+           <label for="contrasena">Contraseña:</label><br>
+           <input type="password" id="contraseña" name="contraseña" placeholder="Minimo 8 caracteres" required><br><br>
+
+            <label for="genero">Género:</label><br>
+            <input type="radio" id="femenino" name="género" value="Femenino">
+            <label for="femenino">Femenino</label><br>   
+            <input type="radio" id="masculino" name="género" value="Masculino">
+            <label for="masculino">Masculino</label><br>   
+            <input type="radio" id="noBinario" name="género" value="NoBinario">
+            <label for="noBinario">No binario</label><br>  
+            <input type="radio" id="prefieroNoDecirlo" name="género" value="prefieroNoDecirlo">
+            <label for="prefieroNoDecirlo">Prefiero no decirlo</label><br><br>
+
+            <label for="intereses">Intereses:</label><br>
+            <input type="checkbox" id="intereses" name="intereses" value="Fotografía">
+            <label for="fotografía">Fotografía</label><br>
+            <input type="checkbox" id="intereses" name="intereses" value="Música">
+            <label for="musica">Música</label><br>
+            <input type="checkbox" id="intereses" name="intereses" value="Literatura">
+            <label for="literatura">Literatura</label><br>
+            <input type="checkbox" id="intereses" name="intereses" value="Arte">
+            <label for="arte">Arte</label><br>
+            <input type="checkbox" id="intereses" name="intereses" value="Tecnología">
+            <label for="tecnologia">Tecnología</label><br>
+            <input type="checkbox" id="intereses" name="intereses" value="Deportes">
+            <label for="deportes">Deportes</label><br><br>
+
+            <label for="comentarios">Comentarios adicionales:</label><br>
+            <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Ingrese sus comenatrios acá..."></textarea><br><br>
+
+            <label for="paises">País:</label><br>
+                <select name="paises" id="paises">
+                <option value="argentina">Argentina</option>
+                <option value="bolivia">Bolivia</option>
+                <option value="chile">Chile</option>
+                <option value="peru">Perú</option>
+                </select>   
+        </fieldset>
+        <button type="submit">Enviar</button>
+        </form>        
+    </section>
+    <footer>
+        <p>© 2026 - Pilar Santisteban </p>
+    </footer>
+</body>
+</html>
