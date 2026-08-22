@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio ~ La Buena Mesa</title>
+</head>
+<body>
+    <header>
+        <h1>La Buena Mesa</h1>
+        <p>Comida a base de plantas</p>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#reservas">Reservas</a></li>
+                <li><a href="ubicacion.html">Ubicación</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Menu del dia</h2>
+            <article>
+                <h4>Medallon de shitake y brocoli</h4>
+                <p>Burger con hongos shitake, brocoli y ración de baby carrots.</p>
+            </article>
+            <article>
+                <h4>Curry picante</h4>
+                <p>Plato autentico de curry amarrillo con tofu y arroz.</p>
+            </article>
+            <article>
+                <h4>Lasagna de verduras</h4>
+                <p>Capas de panqueques de harina integral, rellenos de espinaca y soja texturizada con salsa blanca más tuco.</p>
+            </article>
+        </section>
+        <hr>
+        <aside id="nosotros">
+            <h2>Sobre nosotros</h2>
+            <p>Primer restaurante completamente <strong>Base de Plantas y Vegano</strong> en la provincia. Nuestra busqueda es demostrar que se puede comer rico y sin crueldad animal.</p>
+        </aside>
+        <hr>
+        <section id="reservas">
+            <h2>Reservá tu mesa!</h2>
+            <form action="">
+                <fieldset>
+                    <legend>Datos de la Reserva</legend>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Ej: Wanda"> <br><br>
+
+                    <label for="mail">Correo</label>
+                    <input type="text" id="mail" name="mail" required placeholder="Ej: nombre@mail.com"> <br><br>
+
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha" name="fecha" required> <br><br>
+
+                    <label for="hora">Hora</label>
+                    <input type="time" id="hora" name="hora" required> <br><br>
+
+                    <label for="comensales">Comensales</label>
+                    <input type="number" id="comensales" name="comesales" required placeholder="Ej: 2" min="1" max="15"> <br><br>
+
+                    <label for="cometarios">Comentarios adicionales</label><br><br>
+                    <textarea name="comentarios" id="comentarios" rows="6" placeholder="Ingrese sus comentarios acá, ej: alergias...."></textarea>
+
+                </fieldset>
+                 <button type="submit"> RESERVAR </button>
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 La Buena Mesa ~ Todos los derechos reservados</p>
+    </footer>
+    
+</body>
+</html>
